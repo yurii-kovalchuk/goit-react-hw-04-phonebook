@@ -8,6 +8,7 @@ export const Contact = ({ info: { id, name, number }, onDelete }) => {
         {name}: {number}
       </span>
       <Btn
+        type="button"
         onClick={() => {
           onDelete(id);
         }}
